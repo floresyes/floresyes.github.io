@@ -1,0 +1,100 @@
+<html>
+    <head>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Tisa:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <title>Audio en html</title>
+        <link rel="stylesheet" href="../estilo/style.css"type="text/css">
+        <style type="text/css">
+            section{
+                width: 25%;
+                min-width: 350px;
+                height: 600px;
+                display: inline-block;
+                overflow-y: auto;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+			body {
+        		font-family: "Nunito", sans-serif;
+    		}
+			h1 {
+        		font-family: "Tisa", serif;
+    		}
+            main{
+                text-align: center;
+            }
+            main section p {
+                text-align: justify;
+            }
+            .icono {
+            width: 50px !important; 
+            height: auto !important; 
+            display: inline-block;
+            margin: 10px auto 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="animate__animated animate__bounce">Audios en html</h1>
+            <a href="../index.html" target="_blank"> <img class="icono animate__animated animate__rotateIn" src="../imagenes/casa.png" alt="icono">
+            </a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../html/formatos.html">Formatos</a></li>
+                <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/enlace.html">Enlace</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audio.html">Audio</a></li>
+                <li><a href="../html/videos.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="animate__animated animate__flipInX">
+                <h2 class="animate__animated animate__zoomIn">Image</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel faucibus sapien, ac tempor mauris. Nullam arcu eros, hendrerit quis rutrum eu, eleifend et dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque nisi ante, malesuada sit amet tincidunt in, sagittis viverra metus. Praesent blandit sapien elit. Morbi euismod dolor quis mattis laoreet. Vivamus convallis, sem non laoreet molestie, nisi magna ultrices mauris, ac imperdiet ipsum lectus non augue. Duis auctor quis sapien vel mattis. In ac aliquet risus. Quisque in eros eget risus posuere bibendum. Vestibulum ut leo orci. Pellentesque iaculis sem in.</p>
+                <audio controls>
+                    <source src="../audios/audio1.mp3" type="audio/mp3">
+                    No es posible reproducir el audio
+                </audio>
+            </section>
+            <section class="animate__animated animate__flipInX">
+                <h2 class="animate__animated animate__zoomIn">Imagen</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tristique dui. Fusce sollicitudin eleifend commodo. Sed vitae sollicitudin odio, sit amet congue ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam et elit eu urna vulputate commodo. Vestibulum fringilla finibus enim non blandit. Maecenas aliquam, metus id imperdiet tincidunt, magna est pellentesque magna, vel semper odio elit quis ante. Nullam egestas blandit enim, a sodales nisi consectetur quis. Mauris odio felis, aliquam vel.</p>
+                <audio controls autoplay muted>
+                    <source src="../audios/audio2.mp3" type="audio/mp3">
+                    No es posible reproducir el audio
+                </audio>
+            </section>
+            <section class="animate__animated animate__flipInX">
+                <h2 class="animate__animated animate__zoomIn">Audio con reporduccion ciclica</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id nunc lobortis, congue nisi sit amet, mollis sem. Suspendisse nec elit mi. Vestibulum nec tristique leo, non rutrum lacus. Vivamus ornare erat ac lacus facilisis lacinia. Ut porttitor interdum odio eu tempor. Nulla in feugiat augue. Ut ut tortor vel massa imperdiet laoreet nec non felis. Pellentesque in lorem laoreet turpis faucibus vulputate. Fusce condimentum neque non sollicitudin tempus. Sed ut semper ante. Ut cursus lobortis consequat. Duis fringilla turpis et enim finibus egestas. Praesent risus justo, ornare eu efficitur nec, aliquet ac quam. Aenean vitae enim gravida nulla varius vulputate.Vestibulum sed dapibus lorem. Quisque nulla ipsum, pharetra ut turpis sed, porttitor placerat sem. Mauris nec placerat arcu. Morbi rhoncus sagittis risus, ut tempor.</p>
+                <audio controls loop>
+                    <source src="../audios/audio3.mp3" type="audio/mp3">
+                </audio>
+            </section>
+            <section class="animate__animated animate__flipInX">
+                <h2 class="animate__animated animate__zoomIn">Audio de repositorio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id nunc lobortis, congue nisi sit amet, mollis sem. Suspendisse nec elit mi. Vestibulum nec tristique leo, non rutrum lacus. Vivamus ornare erat ac lacus facilisis lacinia. Ut porttitor interdum odio eu tempor. Nulla in feugiat augue. Ut ut tortor vel massa imperdiet laoreet nec non felis. Pellentesque in lorem laoreet turpis faucibus vulputate. Fusce condimentum neque non sollicitudin tempus. Sed ut semper ante. Ut cursus lobortis consequat. Duis fringilla turpis et enim finibus egestas. Praesent risus justo, ornare eu efficitur nec, aliquet ac quam. Aenean vitae enim gravida nulla varius vulputate.Vestibulum sed dapibus lorem. Quisque nulla ipsum, pharetra ut turpis sed, porttitor placerat sem. Mauris nec placerat arcu. Morbi rhoncus sagittis risus, ut tempor.</p>
+                <iframe src="https://www.ivoox.com/player_ej_63551181_6_1.html?c1=c51a1b" width="50%" height="200" frameborder="0" allowfullscreen="" scrolling="no" loading="lazy"></iframe>
+            </section>
+            <section class="animate__animated animate__flipInX">
+                <h2 class="animate__animated animate__zoomIn">audio de repositorio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis autem officiis veniam esse magnam ut, ducimus est non fugit deleniti excepturi quos, magni deserunt reprehenderit consequuntur odit modi delectus necessitatibus corporis labore omnis. Accusantium qui dignissimos voluptas beatae, ipsam ullam laudantium sint. Impedit quas corporis beatae vel consectetur aut sequi perferendis nesciunt odit sapiente suscipit eveniet, velit ea repellat enim adipisci ipsum dicta explicabo consequuntur porro. Delectus aut voluptatem ab reprehenderit culpa accusantium perspiciatis quam maiores repellendus totam, esse nemo dignissimos impedit vero consequuntur nihil tempora, eius autem quia non dolorem! Doloremque aliquid accusantium magnam repudiandae ex? Ducimus, omnis, perspiciatis?</p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3AJwUDP919kvQ9QcozQPxg?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+            <section class="animate__animated animate__flipInX">
+                <h2 class="animate__animated animate__zoomIn">audio de repositorio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis autem officiis veniam esse magnam ut, ducimus est non fugit deleniti excepturi quos, magni deserunt reprehenderit consequuntur odit modi delectus necessitatibus corporis labore omnis. Accusantium qui dignissimos voluptas beatae, ipsam ullam laudantium sint. Impedit quas corporis beatae vel consectetur aut sequi perferendis nesciunt odit sapiente suscipit eveniet, velit ea repellat enim adipisci ipsum dicta explicabo consequuntur porro. Delectus aut voluptatem ab reprehenderit culpa accusantium perspiciatis quam maiores repellendus totam, esse nemo dignissimos impedit vero consequuntur nihil tempora, eius autem quia non dolorem! Doloremque aliquid accusantium magnam repudiandae ex? Ducimus, omnis, perspiciatis?</p> <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7LEgf3IOaVyBExG9rdU2wl?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+        </main>
+        <footer>
+        <h6 class="animate__animated animate__flipInX" >Elaborado por Lilian Y. Flores Andrade</h6>
+        </footer>
+    
+    </body>
+</html>

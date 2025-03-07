@@ -1,0 +1,143 @@
+<html>
+    <head>
+       <link
+ rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+         <title>Imagenes en html</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilo/style.css" type="text/css">
+    
+    <style>
+        header h1 {
+            font-size: 56px; 
+        }
+        section{
+            text-align: center;
+        }
+        img{
+             display: inline-block;
+             margin-left: 20px;
+             margin-right: 20px;
+            }
+        h1,h2{
+            font-family: 'Roboto', sans-serif;
+        }
+        p{
+            font-family: 'Playfair Display', serif; 
+        }
+        p,h2{ 
+        text-align: justify;
+        }
+        .img1{
+            width: 20%;
+            min-width: 200px
+        }
+        #img_gray{
+
+            filter: grayscale(100%);
+        }
+        #img_brillo{
+            filter: brightness(150%);
+        }
+        #img_contraste{
+             filter: contrast(150%);   
+        }
+        #img_invertido{
+            filter: invert(100%);
+        }
+        #img_opacidad{
+            filter: opacity(50%);
+        }
+        #img_saturaciòn{
+            filter: saturate(150%);
+        }
+        #img_sepia{
+            filter: sepia(120%);
+        }
+        #img_blur{
+            filter: blur(3px);
+        }
+        #img_hue-rotate{
+            filter: hue-rotate(200deg);
+        }
+        #img_sombras{
+            filter: drop-shadow(10px 10px 10px lightblue)
+        }
+        .icono {
+            width: 50px !important; 
+            height: auto !important; 
+            display: inline-block;
+            margin: 10px auto 0;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <header>
+            <h1>Imagenes en html</h1>
+            <a href="../index.html" target="_blank"> <img class="icono animate__animated animate__flipInX animate__slower animate__delay-1s" src="../imagenes/casa.png" alt="icono">
+            </a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../html/formatos.html">Formatos</a></li>
+                <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/enlace.html">Enlace</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audio.html">Audio</a></li>
+                <li><a href="../html/videos.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Image</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel faucibus sapien, ac tempor mauris. Nullam arcu eros, hendrerit quis rutrum eu, eleifend et dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque nisi ante, malesuada sit amet tincidunt in, sagittis viverra metus. Praesent blandit sapien elit. Morbi euismod dolor quis mattis laoreet. Vivamus convallis, sem non laoreet molestie, nisi magna ultrices mauris, ac imperdiet ipsum lectus non augue. Duis auctor quis sapien vel mattis. In ac aliquet risus. Quisque in eros eget risus posuere bibendum. Vestibulum ut leo orci. Pellentesque iaculis sem in.</p>
+                <img src="../imagenes/san_valentin.jpg" alt="Pareja tras unos globos de corazón">
+            </section>
+            <section>
+                <h2>Imagen</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tristique dui. Fusce sollicitudin eleifend commodo. Sed vitae sollicitudin odio, sit amet congue ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam et elit eu urna vulputate commodo. Vestibulum fringilla finibus enim non blandit. Maecenas aliquam, metus id imperdiet tincidunt, magna est pellentesque magna, vel semper odio elit quis ante. Nullam egestas blandit enim, a sodales nisi consectetur quis. Mauris odio felis, aliquam vel.</p>
+                <img id="imagen_animada" src="../imagenes/comegalletas.gif" alt="comegalletas enamorado">
+            </section>
+            <section>
+                <h2>Imagenes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id nunc lobortis, congue nisi sit amet, mollis sem. Suspendisse nec elit mi. Vestibulum nec tristique leo, non rutrum lacus. Vivamus ornare erat ac lacus facilisis lacinia. Ut porttitor interdum odio eu tempor. Nulla in feugiat augue. Ut ut tortor vel massa imperdiet laoreet nec non felis. Pellentesque in lorem laoreet turpis faucibus vulputate. Fusce condimentum neque non sollicitudin tempus. Sed ut semper ante. Ut cursus lobortis consequat. Duis fringilla turpis et enim finibus egestas. Praesent risus justo, ornare eu efficitur nec, aliquet ac quam. Aenean vitae enim gravida nulla varius vulputate.Vestibulum sed dapibus lorem. Quisque nulla ipsum, pharetra ut turpis sed, porttitor placerat sem. Mauris nec placerat arcu. Morbi rhoncus sagittis risus, ut tempor.</p>
+                <a href="https://tarotdetiziana.com/los-amantes-y-su-interpretacion-en-el-tarot/"><img class="animate__animated animate__animate__heartBeat animate__repeat-infinite infinite animate__delay-5s" id="imagen_ico" src="../Imagenes/amar.png" alt="cartas de amor de tarot" target="new"></a>
+            </section>
+            <section>
+                <h2>Titulo</h2>
+                <p><img class="img_flotante" id="img_left"src="../imagenes/corazonrojo.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id nunc lobortis, congue nisi sit amet, mollis sem. Suspendisse nec elit mi. Vestibulum nec tristique leo, non rutrum lacus. Vivamus ornare erat ac lacus facilisis lacinia. Ut porttitor interdum odio eu tempor. Nulla in feugiat augue. Ut ut tortor vel massa imperdiet laoreet nec non felis. Pellentesque in lorem laoreet turpis faucibus vulputate. Fusce condimentum neque non sollicitudin tempus. Sed ut semper ante. Ut cursus lobortis consequat. <img class= "img_flotante"id="img_rigth"src="../imagenes/corazonamarillo.jpg">Duis fringilla turpis et enim finibus egestas. Praesent risus justo, ornare eu efficitur nec, aliquet ac quam. Aenean vitae enim gravida nulla varius vulputate.Vestibulum sed dapibus lorem. Quisque nulla ipsum, pharetra ut turpis sed, porttitor placerat sem. Mauris nec placerat arcu. Morbi rhoncus sagittis risus, ut tempor.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis tristique risus nec porta. Integer lobortis, urna at aliquet placerat, felis justo vestibulum nunc, ut elementum lectus sapien vel nulla. Aliquam rhoncus tellus sit amet risus rutrum congue. Phasellus in laoreet erat. Quisque auctor vel purus id bibendum. Vivamus ac.</p>
+            </section>
+            <section id="fondo_imagen">
+                <h2 style="color:#DDE6ED; font-size: 30px; font-weight: bold;">Imagen como fondo o Background</h2>
+                <p class="parrafo_1">Duis fringilla turpis et enim finibus egestas. Praesent risus justo, ornare eu efficitur nec, aliquet ac quam. Aenean vitae enim gravida nulla varius vulputate.Vestibulum sed dapibus lorem. Quisque nulla ipsum, pharetra ut turpis sed, porttitor placerat sem. Mauris nec placerat arcu. Morbi rhoncus sagittis risus, ut tempor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis tristique risus nec porta. Integer lobortis, urna at aliquet placerat, felis justo vestibulum nunc, ut elementum lectus sapien vel nulla. Aliquam rhoncus tellus sit amet risus rutrum congue. Phasellus in laoreet erat. Quisque auctor vel purus id bibendum. Vivamus ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id nunc lobortis, congue nisi sit amet, mollis sem. Suspendisse nec elit mi. Vestibulum nec tristique leo, non rutrum lacus. Vivamus ornare erat ac lacus facilisis lacinia. Ut porttitor interdum odio eu tempor. Nulla in feugiat augue. Ut ut tortor vel massa imperdiet laoreet nec non felis. Pellentesque in lorem laoreet turpis faucibus vulputate.</p>
+                <p class="parrafo_1">Duis fringilla turpis et enim finibus egestas. Praesent risus justo, ornare eu efficitur nec, aliquet ac quam. Aenean vitae enim gravida nulla varius vulputate.Vestibulum sed dapibus lorem. Quisque nulla ipsum, pharetra ut turpis sed, porttitor placerat sem. Mauris nec placerat arcu. Morbi rhoncus sagittis risus, ut tempor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id nunc lobortis, congue nisi sit amet, mollis sem. Suspendisse nec elit mi. Vestibulum nec tristique leo, non rutrum lacus. Vivamus ornare erat ac lacus facilisis lacinia. Ut porttitor interdum odio eu tempor. Nulla in feugiat augue. Ut ut tortor vel massa imperdiet laoreet nec non felis. Pellentesque in lorem laoreet turpis faucibus vulputate.</p>
+                <p class="parrafo_1">Duis fringilla turpis et enim finibus egestas. Praesent risus justo, ornare eu efficitur nec, aliquet ac quam. Aenean vitae enim gravida nulla varius vulputate.Vestibulum sed dapibus lorem. Quisque nulla ipsum, pharetra ut turpis sed, porttitor placerat sem. Mauris nec placerat arcu. Morbi rhoncus sagittis risus, ut tempor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id nunc lobortis, congue nisi sit amet, mollis sem. Suspendisse nec elit mi. Vestibulum nec tristique leo, non rutrum lacus. Vivamus ornare erat ac lacus facilisis lacinia. Ut porttitor interdum odio eu tempor. Nulla in feugiat augue. Ut ut tortor vel massa imperdiet laoreet nec non felis. Pellentesque in lorem laoreet turpis faucibus vulputate.</p>
+                <p class="parrafo_1">Duis fringilla turpis et enim finibus egestas. Praesent risus justo, ornare eu efficitur nec, aliquet ac quam. Aenean vitae enim gravida nulla varius vulputate.Vestibulum sed dapibus lorem. Quisque nulla ipsum, pharetra ut turpis sed, porttitor placerat sem. Mauris nec placerat arcu. Morbi rhoncus sagittis risus, ut tempor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id nunc lobortis, congue nisi sit amet, mollis sem. Suspendisse nec elit mi. Vestibulum nec tristique leo, non rutrum lacus. Vivamus ornare erat ac lacus facilisis lacinia. Ut porttitor interdum odio eu tempor. Nulla in feugiat augue. Ut ut tortor vel massa imperdiet laoreet nec non felis. Pellentesque in lorem laoreet turpis faucibus vulputate.</p>
+            </section>
+            <section>
+                <h2>Imagenes con filtro</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eos, veritatis. Error molestiae dignissimos nesciunt voluptatibus, nulla modi fuga nobis recusandae expedita sed quaerat ducimus sit, ipsa, rem reprehenderit, iure in architecto. Aperiam laboriosam corrupti autem quos odit nulla praesentium vitae fugiat debitis odio, doloribus a nihil pariatur earum quae mollitia id animi consectetur voluptatem impedit similique possimus, optio non minus. Repudiandae soluta et magni nobis, voluptatem id alias temporibus, quos ipsum ab iure consequuntur amet dicta molestiae fugit corporis sequi nulla! Mollitia aut commodi aspernatur inventore, iste assumenda cumque. Ea inventore cum corporis mollitia eveniet accusamus, quam tempora commodi.</p>
+                <img class="img1" src="../Imagenes/mujer.jpg">
+                <img class="img1" id="img_gray" src="../Imagenes/mujer.jpg">
+                <img class="img1" id="img_brillo" src="../Imagenes/mujer.jpg">
+                <img class="img1" id="img_contraste" src="../Imagenes/mujer.jpg">
+                <img class="img1" id="img_invertido" src="../Imagenes/mujer.jpg">
+                <img class="img1" id="img_opacidad" src="../Imagenes/mujer.jpg">
+                <img class="img1" id="img_saturaciòn" src="../Imagenes/mujer.jpg">
+                <img class="img1" id="img_sepia" src="../Imagenes/mujer.jpg">
+                <img class="img1" id="img_blur" src="../Imagenes/mujer.jpg">
+                <img class="img1" id="img_hue-rotate" src="../Imagenes/mujer.jpg">
+                <img class="img1" id="img_sombras" src="../Imagenes/mujer.jpg">
+                <img class="img1" id="#img_" src="../Imagenes/mujer.jpg">
+            </section>
+        </main>
+        <footer>
+        <h6>Elaborado por Lilian Y. Flores Andrade</h6>
+        </footer>
+    
+    </body>
+</html>

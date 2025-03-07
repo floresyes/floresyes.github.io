@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <link
+ rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+        <title>ENLACES EN HTML</title>
+        <style type="text/css">
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            header, nav, main, footer{
+                width: 80%;
+                padding: 30px;
+                background-color: #2D3E40;
+                color: lightcyan;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            header{
+                height: 100px;
+            }
+            nav{
+                height: 50px;
+                background-color: #97A6A0;
+            }
+            nav ul{
+                text-align: center;
+            }
+            nav ul li{
+                list-style-type: none;
+                width: 10%;
+                height: 30px;
+                background-color: #387373;
+                display: inline-block;
+                padding: 10px;
+                animation: animate__animated animate__bounceIn animate__slower;
+            }
+            main{
+                height: auto;
+                background-color: #E4F2E7;
+                color: #387373;
+            }
+
+            section{
+                width: 70%;
+                height: 200px;
+                background-color: #93BFB7;
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 30px;
+                overflow-y: auto;
+            }
+            header, footer{
+                text-align: center;
+            }
+            footer{
+                background-image: url(../Imagenes/fondo%20enlaces.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color: #2D3E40;
+            }
+            a{
+            text-decoration: none;
+            color:#3498db;
+            transition: all 1s ease-in-out;
+            }
+            a:link{
+                color: #2D3E40;
+            }
+            a:visited{
+                color: white;
+            }
+            a:active{
+                color: darkcyan;
+            }
+            a:hover{
+                color: #E4F2E7;
+            }
+            h1{
+                font-family: "Raleway", sans-serif;
+            }
+            h2{
+                margin-bottom: 30px;
+            }
+            p{
+                font-family: "merriweather", serif;
+                color: #387373;
+            }
+            /* Este bloque de codigo modifica el estado de los enlaces en el menù*/
+            
+            nav, ul li a:link, nav ul li a:visited{
+                color: #E4F2E7;
+                text-decoration: none;
+            }
+            nav ul li:hover{
+                background-color: #93BFB7;
+                width: 12%;
+                
+            }
+            nav ul li a:hover{
+                color: #387373;
+            }
+            .icono {
+            width: 60px; /* Tamaño pequeño para el icono */
+            height: auto; /* Mantiene la proporción de la imagen */
+            display: block; /* Asegura que el icono se muestre como un bloque */
+            margin: 10px auto 0; /* Centra la imagen y agrega un espacio encima */
+            filter: opacity(50%)
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="animate__animated animate__flash animate__slow">ENLACES EN HTML</h1>
+            <a href="../index.html" target="_blank"> <img class="icono animate__animated animate__flipInX animate__slower animate__delay-1s" src="../Imagenes/casa.png" alt="icono">
+            </a>
+        </header> 
+        <nav>
+            <ul>
+                <li class="animate__animated animate__bounceIn animate__slower animate__delay-1s"><a href="../html/formatos.html">Formatos</a></li>
+                <li class="animate__animated animate__bounceIn animate__slower animate__delay-1s"><a href="../html/listas.html">Listas</a></li>
+                <li class="animate__animated animate__bounceIn animate__slower animate__delay-2s"><a href="../html/enlace.html">Enlaces</a></li>
+                <li class="animate__animated animate__bounceIn animate__slower animate__delay-2s"><a href="../html/tablas.html">Tablas</a></li>
+                <li class="animate__animated animate__bounceIn animate__slower animate__delay-3s"><a href="../html/imagenes.html">Imagenes</a></li>
+                <li class="animate__animated animate__bounceIn animate__slower animate__delay-3s"><a href="../html/audio.html">Audios</a></li>
+                <li class="animate__animated animate__bounceIn animate__slower animate__delay-4s"><a href="../html/videos.html">Videos</a></li>
+                <li class="animate__animated animate__bounceIn animate__slower animate__delay-4s"><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+            <h2>Enlaces externos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<a href="http://www.buap.mx">Benemerita Universidad Autonoma de Puebla</a> Pellentesque enim justo, dictum non elit at, suscipit rutrum massa. Phasellus posuere arcu at egestas efficitur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus quam, auctor id tincidunt vitae, ullamcorper ut diam. Sed id imperdiet leo. Suspendisse et quam eu eros pellentesque dictum sit amet sed orci. Sed auctor tortor vel mi consequat porta.<a href= "http://www.udg.mx" target="_blank">Universidad de Guadalajara</a> Nunc luctus viverra ex, in pretium orci tristique sit amet. Ut dictum sem eget ultrices cursus. Mauris est metus, tincidunt a elit at, tempus semper odio. Aenean fringilla pretium ex, ullamcorper bibendum odio pulvinar eu. Fusce.</p>
+            </section>
+            <section>
+                <h2>Enlaces externos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="Formatos%20de%20texto.html" target="_blank">practica de formatos de texto</a> Vestibulum semper turpis arcu, vitae feugiat felis scelerisque ut. Pellentesque ultrices tincidunt ante at posuere. Integer quis maximus arcu. Integer et scelerisque augue. Nullam at libero id arcu elementum vehicula a varius lacus. <a href="listas.html">practica de html listas</a> Aliquam mauris erat, bibendum at lobortis ac, efficitur at erat. Vestibulum dictum tristique arcu, vel semper leo egestas nec. Quisque condimentum tempor eleifend. Quisque venenatis congue porttitor. Quisque cursus volutpat ultricies. Fusce ut lectus turpis. Suspendisse orci erat, vulputate.</p>
+            </section>
+            <section>
+                <h2>Enlaces a archivo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque enim justo, dictum non elit at,<a href="6%20Flores%20Andrade%20Lilian-Formatos%20de%20texto.pdf" target="_blank"> Codigo de practica html de formatos </a> suscipit rutrum massa. Phasellus posuere arcu at egestas efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus quam, auctor id tincidunt vitae, ullamcorper ut diam. Sed id imperdiet leo. Suspendisse et quam eu eros pellentesque dictum sit amet sed orci. Sed auctor tortor vel mi consequat porta. Nunc luctus viverra ex, in pretium orci tristique sit amet. Ut dictum sem eget ultrices cursus. Mauris est metus, tincidunt a elit at, tempus semper odio. Aenean fringilla pretium ex, ullamcorper bibendum odio pulvinar eu. Fusce.</p>
+            </section> 
+            <section>
+                <h2>Enlace con descarga de archivo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<a href="6%20Flores%20Andrade%20Lilian%20-%20Formatos%20de%20texto.png" download>Vista de navegador practica formatos</a> Vestibulum vel tempus odio. Vivamus nec nibh quis ex egestas dapibus. Donec a mi tempor, volutpat velit ut, imperdiet tellus. Nam eu massa eget lorem lobortis aliquet. Ut vel mi facilisis, lobortis elit a, euismod est. Praesent non sem rutrum, tristique dolor fermentum, posuere nisl. <a href="http://www.ebay.com"></a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat mi non hendrerit aliquam. Nunc non augue quis nibh euismod tempus. Proin eu dapibus orci. Phasellus quis leo id leo efficitur tincidunt vitae quis orci. Morbi sit amet venenatis lectus, sed ullamcorper felis. Quisque vitae sem et</p>
+            </section>
+        </main>
+        <footer>
+            <h6>Elaborado por Lilian Yesenia Flores Andrade</h6>
+        </footer>
+    </body>
+</html>

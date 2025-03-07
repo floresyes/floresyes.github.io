@@ -1,0 +1,249 @@
+<html>
+    <head>
+       <link
+ rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+        <title>Formatos de Textos</title>  
+        <style type="text/css">
+         
+        *{ 
+            margin: 0;
+            padding: 0;
+        }
+         header,nav,main,footer
+        {
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%px;
+            
+            }
+        header{
+            height: 100px;
+            background-color: rosybrown;
+            color: mistyrose;
+            padding: 50px;
+            
+        }
+        nav{
+            /*width: 1200px;*/
+            height: auto;
+            background-color:pink;
+            padding: 50px;
+        }
+        main{
+            /*width: 1200px;*/
+            height: auto;
+            background-color: lightpink;
+            padding: 50px;
+        }
+        footer{
+            /*width: 1200px;*/
+            height: 50px;
+            background-color: rosybrown;
+            color: mistyrose;
+            padding: 50px; 
+        }  
+            
+            section{
+                width: 40%;       
+                height: 400px;
+                overflow-y: auto;
+                background-color: rosybrown;
+                margin-bottom: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+                padding: 30px;
+                display: inline-block;
+                animation: animate__animated animate__fadeInUp animate__slow;
+            }
+            h1,h2,h3,h4,h5,h6{
+                margin-bottom: 10px;
+            }
+            p,ul,ol{
+                text-align: justify;
+            }
+            h1,h6{
+                text-align: center;
+            }
+            h1{
+                font-family: "Playfair Display", serif;
+                margin-bottom: 20px;
+            }
+            p{
+                font-family: "source Sans Pro", sans-serif;
+            }
+            ul,ol{
+                padding-left: 50px;
+                padding-top: 10px;
+            }
+            nav ul{
+                text-align: center;
+            }
+            nav ul li{
+            width: 90px;
+            height: 30px;
+            background-color: mistyrose;
+            list-style-type: none;
+            display: inline-block;
+            padding: 5px;
+            border-radius: 30%;
+            color: darksalmon;
+            margin-left: 10px;
+            margin-right: 10px;    
+           }
+            nav ul li:hover{
+            background-color: rosybrown;
+            }
+            nav ul li a:hover{
+                color:mistyrose;
+            }
+            ul li{
+                list-style-type: upper-roman;
+            }
+            
+           ol li ul li {
+                list-style-type: circle;
+            }
+            ol li{
+                list-style-type: square;
+            }
+            nav ul li a{
+                text-decoration: none;
+            }
+           #fondo_imagen{
+                background-image: url(../imagenes/fondo_listas.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .icono {
+            width: 60px; /* Tamaño pequeño para el icono */
+            height: auto; /* Mantiene la proporción de la imagen */
+            display: block; /* Asegura que el icono se muestre como un bloque */
+            margin: 10px auto 0; /* Centra la imagen y agrega un espacio encima */
+            filter: opacity(50%);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="animate__animated animate__rotateIn animate__slow"> LISTAS EN HTML</h1>
+            <a href="../index.html" target="_blank"> <img class="icono animate__animated animate__flipInX animate__slower animate__delay-1s" src="../imagenes/casa.png" alt="icono"> 
+            </a> <!--se coloca la animación en la misma "class" donde esta integrada la imagen para que funcione la animación-->
+       
+        </header>
+        <nav id="fondo_imagen">
+            <!--Menu de pagina web-->  
+                 <ul>
+            <li><a href="../html/formatos.html">Formatos</a></li>
+                <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/enlace.html">Enlace</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audio.html">Audio</a></li>
+                <li><a href="../html/videos.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+        </ul>
+        </nav>
+        <main>
+            <section>
+                <h2 class="animate__animated animate__rubberBand animate__delay-2s animate__slower">Listas ordenadas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis lacinia erat. Donec vestibulum massa vel efficitur rhoncus. Integer molestie nisi sed tellus eleifend suscipit. Curabitur nec sapien eu massa mattis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, accumsan non libero ac, molestie fermentum dolor. Vivamus dapibus nibh vitae fermentum dignissim. Nullam hendrerit, lorem eu malesuada suscipit, nisl velit aliquet magna, in fringilla felis tortor non est. Aenean non neque sed urna malesuada euismod id vel ante. Maecenas faucibus lectus at tellus cursus, quis gravida quam porta. Aliquam at tincidunt urna, ut interdum elit. Pellentesque.
+                </p>
+                <ol>
+                    <li>Aguascaliente</li>
+                    <li>Baja California</li>
+                    <li>Colima</li>
+                    <li>Durango</li>
+                    <li>Estado de Mexico</li>
+                    <li>Guanajuato</li>
+                    <li>Hidalgo</li>
+                    <li>Jalisco</li>
+                    <li>Michoacan</li>
+                    <li>Oaxaca</li>
+                    <li>Puebla</li>
+                    <li>San Luis Potosi</li>
+                    <li>Quintana Roo</li>
+                    <li>Tabasco</li>
+                </ol>
+            </section>
+            <section>
+                <h2 class="animate__animated animate__rubberBand animate__delay-3s animate__slower">Listas desordenadas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra eu mauris id fringilla. Donec eu tincidunt quam. Sed quis elit vitae magna rutrum finibus. In scelerisque turpis vitae risus auctor blandit. Nunc a est cursus, blandit justo quis, fringilla risus. Ut egestas tristique dui et auctor. Pellentesque quis dignissim ex, non venenatis tortor. Vivamus ut varius sapien. Curabitur ornare, elit nec porttitor aliquam, neque diam convallis elit, ut porttitor dolor enim ac mauris. Etiam nec ipsum vel felis tincidunt.
+                </p>
+                <ul>
+                    <li>Argentina</li>
+                    <li>Bolivia</li>
+                    <li>Colombia</li>
+                    <li>Dinamarca</li>
+                    <li>España</li>
+                    <li>Francia</li>
+                    <li>Guatemala</li>
+                    <li>Mexico</li>
+                    <li>Nigeria</li>
+                    <li>Puerto Rico</li>
+                    <li>Rusia</li>
+                    <li>Sudafrica</li>
+                    <li>Turquia</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2 class="animate__animated animate__rubberBand animate__delay-4s animate__slower">Listas mixtas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae porttitor nisl. Suspendisse potenti. Fusce mi tellus, viverra vitae eleifend in, tempus quis mauris. In luctus velit at venenatis bibendum. Phasellus congue ligula vel ante vehicula blandit nec sed erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus elit dolor, sed hendrerit lacus tincidunt sit amet. Vivamus cursus sem eget sapien auctor, sit amet efficitur justo suscipit. Vestibulum elementum eros eget porta maximus. Aliquam vehicula elit in diam bibendum, sit amet pharetra dui efficitur. Curabitur congue, nisl sit amet ultricies molestie, neque erat lobortis neque, ac convallis metus leo in nunc. Proin faucibus sed turpis vestibulum egestas. Integer ac lacus lectus. Fusce eu tristique ligula. In vitae aliquam.
+                </p>
+                <ol>
+
+                    <li style="list-style-type: lower-alpha">Queretaro
+                        <ul>
+                            <li>Pinal de Amoles</li>
+                            <li>Tequisquiapan</li>
+                            <li>Bernal</li>
+                        </ul>
+                    </li>
+                    <li style="list-style-type: lower-alpha">Sonora</li>
+                    <li style="list-style-type: lower-alpha">Veracruz
+                        <ul>
+                            <li>Xalapa</li>
+                            <li>Papatla</li>
+                            <li>Orizaba</li>
+                            <li>Tlacotalpan</li>
+                            <li>Alvarado</li>
+                        </ul>
+                        </li>
+                    <li style="list-style-type: lower-alpha">Puebla
+                        <ul>
+                            <li>Cholula</li>
+                            <li>Atlixco</li>
+                            <li>Acajete</li>
+                            <li>Zacatlan</li>
+                            <li>Acatzingo</li>
+                            <li>Amozoc</li>
+                            <li>Calpan</li>
+                            <li>Izucar de Maramoros</li>
+                            <li>Huejotzingo</li>
+                            <li>Chignahuapan</li>
+                            <li>Tehuiltzingo</li>
+                        </ul>
+                    </li>
+                    <li style="list-style-type: lower-alpha">Zacatecas</li>
+                    <li style="list-style-type: lower-alpha">Chihuahua
+                        <ul>
+                            <li>Camargo</li>
+                            <li>Juarez</li>
+                            <li>Parral</li>
+                        </ul>
+                        </li>
+                    <li style="list-style-type: lower-alpha">Nuevo Leon</li>
+                    
+                    
+                </ol>
+            </section>
+        </main>
+        <footer>
+            <h6 class="animation: animate__animated animate__zoomIn animate__delay-5s">Elaborado por Lilian Y. Flores Andrade</h6>
+        </footer>
+    </body>
+</html>
